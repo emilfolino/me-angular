@@ -12,6 +12,6 @@ export class MeService {
   constructor(private http: HttpClient) { }
 
   fetchMe() {
-    return this.http.get<Me>("https://me-api.emilfolino.se");
+    return this.http.get<Me>("https://me-api.jsramverk.me");
   }
 }
