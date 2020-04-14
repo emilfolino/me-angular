@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod && rsync -av dist/me-angular/* efo@jsramverk.me:/var/www/me-angular.jsramverk.me/html/"
+    "deploy": "ng build --prod && rsync -av dist/me-angular/* efo@jsramverk.se:/var/www/me-angular.jsramverk.me/html/"
   },
   "private": true,
   "dependencies": {
