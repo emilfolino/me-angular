@@ -10,6 +10,6 @@ export class ReportService {
   constructor(private http: HttpClient) { }
 
   fetchReport(kmom) {
-    return this.http.get<Report>("https://me-api.jsramverk.me/reports/" + kmom);
+    return this.http.get<Report>("https://me-api.jsramverk.se/reports/" + kmom);
   }
 }
